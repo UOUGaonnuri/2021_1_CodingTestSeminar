@@ -8,6 +8,9 @@ def BFS(r, c):
     field[r][c] = 0
     dx = [1, 0, -1, 0]
     dy = [0, 1, 0, -1]
+    '''
+    (1,0),(0,1),(-1,0),(0,-1)
+    '''
     size = 1
 
     while q:
@@ -16,7 +19,6 @@ def BFS(r, c):
         for i in range(4):
             ny = y + dy[i]
             nx = x + dx[i]
-
             if 0 <= ny < N and 0 <= nx < M and field[ny][nx]:
                 q.append((ny, nx))
                 field[ny][nx] = 0
