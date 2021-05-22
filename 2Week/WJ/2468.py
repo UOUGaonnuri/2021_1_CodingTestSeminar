@@ -18,8 +18,8 @@ ans = 0
 
 for k in range(max(map(max, arr))): 
     cnt = 0 
-    done = [[0]*N for _ in range(N)] # 입력 받은 arr배열 탐색 
-    for i in range(N): 
+    done = [[0]*N for _ in range(N)]
+    for i in range(N):
         for j in range(N): 
             if arr[i][j] > k and done[i][j] == 0: 
                 done[i][j] = 1 
