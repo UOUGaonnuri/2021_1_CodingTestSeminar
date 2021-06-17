@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\1Week",
-    "\\1Week\\KB",
-    "\\1Week\\WJ",
     "\\2Week",
     "\\2Week\\DH",
+    "\\2Week\\HR",
+    "\\2Week\\WJ",
     "\\3Week",
     "\\3Week\\WJ",
     "\\4Week",
+    "\\4Week\\WJ",
     "\\5Week"
   ],
-  "SelectedNode": "\\3Week\\WJ\\7_8.py",
+  "SelectedNode": "\\4Week\\WJ\\1197.py",
   "PreviewInSolutionExplorer": false
 }
